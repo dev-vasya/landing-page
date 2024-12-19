@@ -19,7 +19,6 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
 }
 .header{
     display: flex;
@@ -69,6 +68,96 @@ body{
     margin: 16px 0 0 0;
 }
 
+
+
 .main-content{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.main-content_tryNew{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.main-content_tryNew_header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.main-content_tryNew_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px;
+}
+.main-content_tryNew_list_item{
+    flex: 0 1 300px;
+}
+.main-content_tryNew_list_item img{
+    width: 300px;
+    height: 370px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.main-content_tryNew_list_text{
+    font-size: 18px;
+    color: #3e4042;
+    text-align: center;
+}
+
+.main-content_inspiration{
+    background-color: #E5E7EB;
+}
+.main-content_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 0;
+    text-align: center;
+    font-size: 36px;
+}
+.main-content_inspiration_text{
+    font-weight: 300;
+    font-style: italic;
+}
+.main-content_inspiration_author{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 0 900px;
+}
+.main-content_signUpContainer{
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    align-items: flex-end;
+}
+.main-content_signUpContainer_textOne{
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-content_signUpContainer_texTwo{
+    color: #E5E7EB;
+}
+.main-content_signUpContainer_signUp{
+    padding: 12px 45px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 3px solid #E5E7EB;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px 0;
+    color: #E5E7EB;
 }
